@@ -1,7 +1,7 @@
 body {
 	background: #728eaa;
-	background: -moz-linear-gradient(top, #06266F 0%, #4671D5 100%); /* firefox */	
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#06266F), color-stop(100%,#4671D5)); /* webkit */
+	background: -moz-linear-gradient(top, #000000 0%, #06266F 100%); /* firefox */	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#06266F)); /* webkit */
 	font-family: sans-serif; 
 }
 
@@ -15,6 +15,14 @@ body {
 h1 {
 	font-size: 35px; color: #439400; text-transform: uppercase;
 	text-align: center; margin: 0 0 35px 0; text-shadow: 0px 2px 0px black;
+}
+
+legend {
+	font-size: 2em;
+	color: #439400; 
+	text-transform: uppercase; 
+	text-shadow: 0px 2px 0px black;	
+	padding: 1em;
 }
 
 label:not(.radioButton) {
@@ -40,7 +48,11 @@ input:not(.radioInput), select {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
 	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
 	-moz-box-shadow: 0px 1px 0px black;-webkit-box-shadow: 0px 1px 0px black;
-	font-family: sans-serif; font-size: 16px; color: black; text-transform: uppercase; text-shadow: 0px -1px 0px #334f71; 
+	font-family: sans-serif; 
+	font-size: 16px; 
+	color: black; 
+	text-transform: uppercase; 
+	text-shadow: 0px -1px 0px #334f71; 
 }
 	input::-webkit-input-placeholder  {
     	color: #a1b2c3; text-shadow: 0px -1px 0px #38506b;  

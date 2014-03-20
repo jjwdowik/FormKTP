@@ -10,55 +10,55 @@
 	<body>
 		<div id="contact">
 			<h1>Contact KTP</h1>
-			<form action = "thankyou.html" method = "get">
-			<fieldset>
-				<legend>About You</legend>
-					<label for="name">Name</label>
-					<input id="name" name="name" type="text" placeholder="First and last name" required autofocus>
-						
-					<label for="email">Email</label>
-					<input id="email" name="email" type="email" placeholder="example@domain.com" required>
+			<form action = "thankyou.html" method = "get" onclick="return ">
 
-					<label for="phone">Phone</label>
-					<input type="text" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd">
+			<legend>About You</legend>
+				<label for="name">Name</label>
+				<input id="name" name="name" type="text" placeholder="First and last name" required autofocus>
+					
+				<label for="email">Email</label>
+				<input id="email" name="email" type="email" placeholder="example@domain.com" required>
 
-					<label for="year">Graduation Year</label>
-					<input id = "year" type="text" placeholder = "Year" data-format="Year">
-						<!-- want to put in jquery dropdown -->
+				<label for="phone">Phone</label>
+				<input type="text" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd">
 
-					<label for="major">Major</label>
-					<input id = "Major" type="text" placeholder = "i.e. Informatics" data-format="Major">
+				<label for="year">Graduation Year</label>
+				<input id = "year" type="text" placeholder = "Year" data-format="Year">
+					<!-- want to put in jquery dropdown -->
+
+				<label for="major">Major</label>
+				<input id = "Major" type="text" placeholder = "i.e. Informatics" data-format="Major">
 						<!-- put in dropdown include things for students such as year and major -->
 
-			</fieldset>
-			<fieldset>
-				<legend>Message</legend>
- 						<label for="category">Category</label>
-						<form action="">
-						<select name="category">
-						<option value="rush">Rush</option>
-						<option value="collaborate">Collaborate</option>
-						<option value="generalQuestion" selected>General Question</option>
-						<option value="feedback">Feedback</option>
-						</select>
-						</form>
 
-						<label for="subject">Email Subject</label>
-						<input id = "subject" type="text">
+			<legend>Message</legend>
+ 				<label for="category">Category</label>
+				<form action="">
+				<select name="category">
+				<option value="rush">Rush</option>
+				<option value="collaborate">Collaborate</option>
+				<option value="generalQuestion" selected>General Question</option>
+				<option value="feedback">Feedback</option>
+				</select>
+				</form>
 
-						<label for="major">message</label>
-						<textarea id = "message" placeholder = "Please write your message here"></textarea>
-		    </fieldset>
-	    	<fieldset>
-	     		<legend>Do you want to be on our email listserv?</legend>
-			<input type="radio" id="radio1" name="group1" value="yes" checked>
-   				<label for="radio1" class="radioButton">Yes</label>
-			<input type="radio" id="radio2" name="group1"value="no">
-   				<label for="radio2" class="radioButton">No</label>
-	     	</fieldset>
-			<fieldset>
-				<button type="submit">Submit!</button>
-			</fieldset>
+				<label for="subject">Email Subject</label>
+				<input id = "subject" type="text">
+
+				<label for="major">message</label>
+				<textarea id = "message" placeholder = "Please write your message here"></textarea>
+
+
+     	<legend>Do you want to be on our email listserv?</legend>
+		<input type="radio" id="radio1" name="group1" value="yes" checked>
+			<label for="radio1" class="radioButton">Yes</label>
+		<input type="radio" id="radio2" name="group1"value="no">
+			<label for="radio2" class="radioButton">No</label>
+
+
+
+			<button type="submit">Submit!</button>
+
 
 
 
