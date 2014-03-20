@@ -1,0 +1,22 @@
+h1 {
+	background-color: #19FF19;
+	border-radius: 2em;
+	padding: 2%;
+	font-family: Trebuchet, sans-serif;
+}
+
+body {
+	background-color: #458FFF;
+
+}
+
+li {
+	color: #FFFFFF;
+	font-family: Trebuchet, sans-serif;
+	padding-top: 1em;
+}
+
+legend {
+	color: #FFFFFF;
+	font-family: Trebuchet, sans-serif;
+}
