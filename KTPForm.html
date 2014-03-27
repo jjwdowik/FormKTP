@@ -12,8 +12,9 @@
 	<body>
 		<div id="contact">
 			<h1>Contact KTP</h1>
-			<form name="input" action = "processForm.php" method = "POST" onsubmit="return checkEmail(this);">
-
+			<img id="KTP" src="css/KTP.png" alt="Kappa theta pi">
+			<form action = "processForm.php" method = "POST" onsubmit="return checkEmail(this);">
+			<fieldset>
 			<legend>About You</legend>
 				<label for="name">Name</label>
 				<input id="name" name="name" type="text" placeholder="First and last name" required autofocus>
@@ -34,6 +35,7 @@
 				<label for="major">Major</label>
 				<input id = "Major" type="text" placeholder = "i.e. Informatics" data-format="Major">
 						<!-- put in dropdown include things for students such as year and major -->
+			<fieldset>
 
 
 			<legend>Message</legend>
@@ -55,11 +57,13 @@
 
 
      	<legend>Do you want to be on our email listserv?</legend>
-		<input type="radio" id="radio1" name="group1" value="yes" checked>
-			<label for="radio1" class="radioButton">Yes</label>
-		<input type="radio" id="radio2" name="group1"value="no">
-			<label for="radio2" class="radioButton">No</label>
-
+     	<div class="radioGuys">
+			<input type="radio" id="radio1" name="group1" value="yes" checked>
+				<label for="radio1" class="radioButton">Yes</label>
+			<input type="radio" id="radio2" name="group1"value="no">
+				<label for="radio2" class="radioButton">No</label>
+		</div>
+		</fieldset>
 
 
 			<!-- <button type="submit" value="Done">Submit!</button> -->
